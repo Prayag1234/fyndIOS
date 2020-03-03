@@ -9,12 +9,21 @@
 /* Begin PBXBuildFile section */
 		2D003E25240C21B50067ECE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D003E24240C21B50067ECE5 /* AppDelegate.swift */; };
 		2D003E27240C21B50067ECE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D003E26240C21B50067ECE5 /* SceneDelegate.swift */; };
-		2D003E29240C21B50067ECE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D003E28240C21B50067ECE5 /* ViewController.swift */; };
 		2D003E2C240C21B50067ECE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D003E2A240C21B50067ECE5 /* Main.storyboard */; };
 		2D003E2E240C21B60067ECE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D003E2D240C21B60067ECE5 /* Assets.xcassets */; };
 		2D003E31240C21B60067ECE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D003E2F240C21B60067ECE5 /* LaunchScreen.storyboard */; };
 		2D003E3C240C21B60067ECE5 /* fyndProductTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D003E3B240C21B60067ECE5 /* fyndProductTests.swift */; };
 		2D003E47240C21B60067ECE5 /* fyndProductUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D003E46240C21B60067ECE5 /* fyndProductUITests.swift */; };
+		2D003E56240C2B0F0067ECE5 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D003E55240C2B0F0067ECE5 /* ProductListViewController.swift */; };
+		2D003E5A240C2B7D0067ECE5 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D003E59240C2B7D0067ECE5 /* ProductViewController.swift */; };
+		2D003E5C240C2C7B0067ECE5 /* ProductListEntites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D003E5B240C2C7B0067ECE5 /* ProductListEntites.swift */; };
+		2D003E5F240C2E6F0067ECE5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D003E5E240C2E6F0067ECE5 /* Extensions.swift */; };
+		2D003E63240C35CD0067ECE5 /* CollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D003E61240C35CD0067ECE5 /* CollectionTableViewCell.swift */; };
+		2D003E64240C35CD0067ECE5 /* CollectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D003E62240C35CD0067ECE5 /* CollectionTableViewCell.xib */; };
+		2D003E68240C3AAA0067ECE5 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D003E66240C3AAA0067ECE5 /* CollectionViewCell.swift */; };
+		2D003E69240C3AAA0067ECE5 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D003E67240C3AAA0067ECE5 /* CollectionViewCell.xib */; };
+		2D003E6D240C4FE40067ECE5 /* ImageOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D003E6C240C4FE40067ECE5 /* ImageOperation.swift */; };
+		2D003E6F240C503D0067ECE5 /* ImageDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D003E6E240C503D0067ECE5 /* ImageDownloadManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +47,6 @@
 		2D003E21240C21B50067ECE5 /* fyndProduct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fyndProduct.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D003E24240C21B50067ECE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D003E26240C21B50067ECE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2D003E28240C21B50067ECE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2D003E2B240C21B50067ECE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D003E2D240C21B60067ECE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D003E30240C21B60067ECE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +57,16 @@
 		2D003E42240C21B60067ECE5 /* fyndProductUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fyndProductUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D003E46240C21B60067ECE5 /* fyndProductUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fyndProductUITests.swift; sourceTree = "<group>"; };
 		2D003E48240C21B60067ECE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D003E55240C2B0F0067ECE5 /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		2D003E59240C2B7D0067ECE5 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		2D003E5B240C2C7B0067ECE5 /* ProductListEntites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListEntites.swift; sourceTree = "<group>"; };
+		2D003E5E240C2E6F0067ECE5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		2D003E61240C35CD0067ECE5 /* CollectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTableViewCell.swift; sourceTree = "<group>"; };
+		2D003E62240C35CD0067ECE5 /* CollectionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionTableViewCell.xib; sourceTree = "<group>"; };
+		2D003E66240C3AAA0067ECE5 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		2D003E67240C3AAA0067ECE5 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		2D003E6C240C4FE40067ECE5 /* ImageOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageOperation.swift; sourceTree = "<group>"; };
+		2D003E6E240C503D0067ECE5 /* ImageDownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloadManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +119,8 @@
 			children = (
 				2D003E24240C21B50067ECE5 /* AppDelegate.swift */,
 				2D003E26240C21B50067ECE5 /* SceneDelegate.swift */,
-				2D003E28240C21B50067ECE5 /* ViewController.swift */,
+				2D003E54240C29F00067ECE5 /* Modules */,
+				2D003E5D240C2E470067ECE5 /* Custom */,
 				2D003E2A240C21B50067ECE5 /* Main.storyboard */,
 				2D003E2D240C21B60067ECE5 /* Assets.xcassets */,
 				2D003E2F240C21B60067ECE5 /* LaunchScreen.storyboard */,
@@ -126,6 +145,70 @@
 				2D003E48240C21B60067ECE5 /* Info.plist */,
 			);
 			path = fyndProductUITests;
+			sourceTree = "<group>";
+		};
+		2D003E54240C29F00067ECE5 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				2D003E57240C2B170067ECE5 /* ProductList */,
+				2D003E58240C2B330067ECE5 /* Product */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		2D003E57240C2B170067ECE5 /* ProductList */ = {
+			isa = PBXGroup;
+			children = (
+				2D003E60240C358D0067ECE5 /* CollectionTableViewCell */,
+				2D003E55240C2B0F0067ECE5 /* ProductListViewController.swift */,
+				2D003E5B240C2C7B0067ECE5 /* ProductListEntites.swift */,
+			);
+			path = ProductList;
+			sourceTree = "<group>";
+		};
+		2D003E58240C2B330067ECE5 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				2D003E59240C2B7D0067ECE5 /* ProductViewController.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		2D003E5D240C2E470067ECE5 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				2D003E6A240C4FAC0067ECE5 /* LazyLoading */,
+				2D003E5E240C2E6F0067ECE5 /* Extensions.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		2D003E60240C358D0067ECE5 /* CollectionTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				2D003E65240C3A810067ECE5 /* CollectionViewCell */,
+				2D003E61240C35CD0067ECE5 /* CollectionTableViewCell.swift */,
+				2D003E62240C35CD0067ECE5 /* CollectionTableViewCell.xib */,
+			);
+			path = CollectionTableViewCell;
+			sourceTree = "<group>";
+		};
+		2D003E65240C3A810067ECE5 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				2D003E66240C3AAA0067ECE5 /* CollectionViewCell.swift */,
+				2D003E67240C3AAA0067ECE5 /* CollectionViewCell.xib */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		2D003E6A240C4FAC0067ECE5 /* LazyLoading */ = {
+			isa = PBXGroup;
+			children = (
+				2D003E6C240C4FE40067ECE5 /* ImageOperation.swift */,
+				2D003E6E240C503D0067ECE5 /* ImageDownloadManager.swift */,
+			);
+			path = LazyLoading;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +318,8 @@
 				2D003E31240C21B60067ECE5 /* LaunchScreen.storyboard in Resources */,
 				2D003E2E240C21B60067ECE5 /* Assets.xcassets in Resources */,
 				2D003E2C240C21B50067ECE5 /* Main.storyboard in Resources */,
+				2D003E64240C35CD0067ECE5 /* CollectionTableViewCell.xib in Resources */,
+				2D003E69240C3AAA0067ECE5 /* CollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +344,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D003E29240C21B50067ECE5 /* ViewController.swift in Sources */,
 				2D003E25240C21B50067ECE5 /* AppDelegate.swift in Sources */,
+				2D003E5F240C2E6F0067ECE5 /* Extensions.swift in Sources */,
+				2D003E68240C3AAA0067ECE5 /* CollectionViewCell.swift in Sources */,
+				2D003E6F240C503D0067ECE5 /* ImageDownloadManager.swift in Sources */,
+				2D003E5C240C2C7B0067ECE5 /* ProductListEntites.swift in Sources */,
+				2D003E63240C35CD0067ECE5 /* CollectionTableViewCell.swift in Sources */,
+				2D003E56240C2B0F0067ECE5 /* ProductListViewController.swift in Sources */,
+				2D003E5A240C2B7D0067ECE5 /* ProductViewController.swift in Sources */,
+				2D003E6D240C4FE40067ECE5 /* ImageOperation.swift in Sources */,
 				2D003E27240C21B50067ECE5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
